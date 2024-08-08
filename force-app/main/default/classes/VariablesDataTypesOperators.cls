@@ -37,6 +37,7 @@ public with sharing class VariablesDataTypesOperators {
     }
     return a + b;
 }
+
     /**
      * Question 2
      * Performs subtraction of two numbers.
