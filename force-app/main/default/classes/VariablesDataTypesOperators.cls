@@ -35,8 +35,7 @@ public with sharing class VariablesDataTypesOperators {
         if (a == null || b == null) {
         return null; // Replace null with the variable you used to store the result
     }
-        Integer v1 = a + b;
-        return (v1);
+    return a + b;
 }
     /**
      * Question 2
