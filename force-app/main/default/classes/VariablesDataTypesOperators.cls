@@ -101,7 +101,7 @@ public with sharing class VariablesDataTypesOperators {
      * @return true if the number is positive, false otherwise.
      */
     public static Boolean isPositive(Integer num) {
-        return t>0; // Replace null with the variable you used to store the result
+        return num > 0; // Replace null with the variable you used to store the result
     }
 
     /**
