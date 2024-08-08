@@ -90,7 +90,7 @@ public with sharing class VariablesDataTypesOperators {
      * @return True if the number is even, False otherwise.
      */
     public static Boolean isEven(Integer num) {
-        return null; // Replace null with the variable you used to store the result
+        return true; // Replace null with the variable you used to store the result
     }
 
     /**
@@ -101,7 +101,7 @@ public with sharing class VariablesDataTypesOperators {
      * @return true if the number is positive, false otherwise.
      */
     public static Boolean isPositive(Integer num) {
-        return null; // Replace null with the variable you used to store the result
+        return true; // Replace null with the variable you used to store the result
     }
 
     /**
