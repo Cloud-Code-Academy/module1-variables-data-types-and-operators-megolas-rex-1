@@ -263,8 +263,8 @@ public with sharing class VariablesDataTypesOperators {
         // formula: celsius = (fahrenheit - 32) * 5/9
         // 
         
-        fahrenheit =(fahrenheit - SUBTRACT_FACTOR) * (MULTIPLY_FACTOR/DIVIDE_FACTOR); // Replace null with the variable you used to store the result
-        return Double fahrenheit;
+        Double celsius = (fahrenheit - SUBTRACT_FACTOR) * (MULTIPLY_FACTOR/DIVIDE_FACTOR); // Replace null with the variable you used to store the result
+        return celsius;
     }
 
 
