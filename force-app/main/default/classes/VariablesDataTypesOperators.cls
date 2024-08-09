@@ -128,7 +128,7 @@ public with sharing class VariablesDataTypesOperators {
 	 * @return The complete sentence as a single String.
 	 */
 	public static String createSentence(String noun, String verb, String endingPunctuation) {
-		return ' ' + noun + ' ' + verb + ' ' + endingPunctuation; // Replace null with the variable you used to store the result
+		return  The + ' ' + noun + ' ' + verb + ' ' + endingPunctuation; // Replace null with the variable you used to store the result
 	}
 
     /**
@@ -145,7 +145,7 @@ public with sharing class VariablesDataTypesOperators {
         Date today = Date.today();
 
         (dt = today);
-        return dt < today; // Replace null with the variable you used to store the result
+        return dt > today; // Replace null with the variable you used to store the result
     }
 
     /**
@@ -313,7 +313,7 @@ public with sharing class VariablesDataTypesOperators {
      * @return A Decimal representing the monthly paycheck.
      */
     public static Decimal calculateMonthlyPaycheck(Decimal hourlyRate, Double numberOfHours) {
-        return hourlyRate * numberOfHours; // Replace null with the variable you used to store the result
+        return hourlyRate * numberOfHours * 4; // Replace null with the variable you used to store the result
     }
 
     /**
