@@ -144,8 +144,8 @@ public with sharing class VariablesDataTypesOperators {
        //get current date
         Date today = Date.today();
 
-        Date;( v1 = today);
-        return dt < v1; // Replace null with the variable you used to store the result
+        (dt = today);
+        return dt < today; // Replace null with the variable you used to store the result
     }
 
     /**
@@ -264,7 +264,7 @@ public with sharing class VariablesDataTypesOperators {
         // 
         
         fahrenheit =(fahrenheit - SUBTRACT_FACTOR) * (MULTIPLY_FACTOR/DIVIDE_FACTOR); // Replace null with the variable you used to store the result
-        return convertFahrenheitToCelsius;
+        return Double convertFahrenheitToCelsius;
     }
 
 
