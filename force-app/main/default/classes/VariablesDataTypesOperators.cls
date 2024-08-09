@@ -251,7 +251,7 @@ public with sharing class VariablesDataTypesOperators {
         final Double DIVIDE_FACTOR = 9.0;
     
         
-        return Double convertFahrenheitToCelsius=(fahrenheit - SUBTRACT_FACTOR) * (MULTIPLY_FACTOR/DIVIDE_FACTOR); // Replace null with the variable you used to store the result
+        return Double convertFahrenheitToCelsius =(fahrenheit - SUBTRACT_FACTOR) * (MULTIPLY_FACTOR/DIVIDE_FACTOR); // Replace null with the variable you used to store the result
     }
 
     
