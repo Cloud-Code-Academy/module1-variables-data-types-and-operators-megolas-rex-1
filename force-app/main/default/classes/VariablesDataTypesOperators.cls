@@ -129,7 +129,7 @@ public with sharing class VariablesDataTypesOperators {
 	 */
 	public static String createSentence(String noun, String verb, String endingPunctuation) {
 
-        String sentence = 'The' + ' ' + noun + ' ' + verb + ' ' + endingPunctuation;
+        String sentence = 'The' + ' ' + noun + ' ' + verb + endingPunctuation;
 		return  sentence ; // Replace null with the variable you used to store the result
 	}
 
@@ -145,9 +145,8 @@ public with sharing class VariablesDataTypesOperators {
     public static Boolean isDateInPast(Date dt) {
        //get current date
         Date today = Date.today();
-
-        (dt = today);
-        return dt > today; // Replace null with the variable you used to store the result
+        
+        return dt < today; // Replace null with the variable you used to store the result
     }
 
     /**
