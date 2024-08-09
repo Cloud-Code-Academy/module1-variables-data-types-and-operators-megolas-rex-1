@@ -264,7 +264,7 @@ public with sharing class VariablesDataTypesOperators {
         // 
         
         fahrenheit =(fahrenheit - SUBTRACT_FACTOR) * (MULTIPLY_FACTOR/DIVIDE_FACTOR); // Replace null with the variable you used to store the result
-        return Double convertFahrenheitToCelsius;
+        return Double fahrenheit;
     }
 
 
