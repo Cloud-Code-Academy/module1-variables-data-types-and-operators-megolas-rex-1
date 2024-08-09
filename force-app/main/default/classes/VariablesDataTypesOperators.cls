@@ -143,7 +143,9 @@ public with sharing class VariablesDataTypesOperators {
     public static Boolean isDateInPast(Date dt) {
        //get current date
         Date today = Date.today()
-        return isDateInPast(dt < today); // Replace null with the variable you used to store the result
+
+        Date v1 = today;
+        return dt < v1; // Replace null with the variable you used to store the result
     }
 
     /**
