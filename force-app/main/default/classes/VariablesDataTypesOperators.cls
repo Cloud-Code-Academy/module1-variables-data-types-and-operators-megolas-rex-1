@@ -143,7 +143,7 @@ public with sharing class VariablesDataTypesOperators {
     public static Boolean isDateInPast(Date dt) {
        //get current date
         Date today = Date.today()
-        return dt < today; // Replace null with the variable you used to store the result
+        return isDateInPast(dt < today); // Replace null with the variable you used to store the result
     }
 
     /**
@@ -158,7 +158,7 @@ public with sharing class VariablesDataTypesOperators {
     public static Boolean isDateTodayOrFuture(Date dt) {
         //get current date
         Date today = Date.today()
-        return dt >= today; // Replace null with the variable you used to store the result
+        return isDateTodayOrFuture(dt >= today); // Replace null with the variable you used to store the result
     }
 
     /**
@@ -259,7 +259,7 @@ public with sharing class VariablesDataTypesOperators {
         // 
         
         Double convertFahrenheitToCelsius(fahrenheit) =(fahrenheit - SUBTRACT_FACTOR) * (MULTIPLY_FACTOR/DIVIDE_FACTOR); // Replace null with the variable you used to store the result
-        return convertFahrenheitToCelsius(fahrenheit);
+        return convertFahrenheitToCelsius;
     }
 
 
