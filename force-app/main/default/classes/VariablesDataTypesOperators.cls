@@ -141,6 +141,8 @@ public with sharing class VariablesDataTypesOperators {
      * @return True if the date is in the past, False otherwise.
      */
     public static Boolean isDateInPast(Date dt) {
+       //get current date
+        Date today = Date.today()
         return dt < today; // Replace null with the variable you used to store the result
     }
 
@@ -154,6 +156,8 @@ public with sharing class VariablesDataTypesOperators {
      * @return True if the date is today or in the future, False otherwise.
      */
     public static Boolean isDateTodayOrFuture(Date dt) {
+        //get current date
+        Date today = Date.today()
         return dt >= today; // Replace null with the variable you used to store the result
     }
 
@@ -167,7 +171,7 @@ public with sharing class VariablesDataTypesOperators {
      * @return The number of milliseconds equivalent to the given number of minutes.
      */
     public static Integer convertMinutesToMilliseconds(Integer minutes) {
-        Integer MILLISECONDS_PER_MINUTE = constant 60000; // Make this value a constant
+      final Integer MILLISECONDS_PER_MINUTE = 60000; // Make this value a constant
         Integer milliseconds;
         return minutes * MILLISECONDS_PER_MINUTE; // Replace null with the variable you used to store the result
     }    
@@ -250,9 +254,14 @@ public with sharing class VariablesDataTypesOperators {
         final Double MULTIPLY_FACTOR = 5.0;
         final Double DIVIDE_FACTOR = 9.0;
     
+        // calculate the celsiuper equivalent to the given Fahrenheit temperature
+        // formula: celsius = (fahrenheit - 32) * 5/9
+        // 
         
-        return Double convertFahrenheitToCelsius =(fahrenheit - SUBTRACT_FACTOR) * (MULTIPLY_FACTOR/DIVIDE_FACTOR); // Replace null with the variable you used to store the result
+        Double convertFahrenheitToCelsius(fahrenheit) =(fahrenheit - SUBTRACT_FACTOR) * (MULTIPLY_FACTOR/DIVIDE_FACTOR); // Replace null with the variable you used to store the result
+        return convertFahrenheitToCelsius(fahrenheit);
     }
+
 
     
 
