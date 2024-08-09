@@ -128,7 +128,7 @@ public with sharing class VariablesDataTypesOperators {
 	 * @return The complete sentence as a single String.
 	 */
 	public static String createSentence(String noun, String verb, String endingPunctuation) {
-		return ' ' + noun + ' ' + verb + ' ' +endingPunctuation; // Replace null with the variable you used to store the result
+		return ' ' + noun + ' ' + verb + ' ' + endingPunctuation; // Replace null with the variable you used to store the result
 	}
 
     /**
@@ -142,9 +142,9 @@ public with sharing class VariablesDataTypesOperators {
      */
     public static Boolean isDateInPast(Date dt) {
        //get current date
-        Date today = Date.today()
+        Date today = Date.today();
 
-        Date v1 = today;
+        Date;( v1 = today);
         return dt < v1; // Replace null with the variable you used to store the result
     }
 
@@ -159,8 +159,11 @@ public with sharing class VariablesDataTypesOperators {
      */
     public static Boolean isDateTodayOrFuture(Date dt) {
         //get current date
-        Date today = Date.today()
-        return isDateTodayOrFuture(dt >= today); // Replace null with the variable you used to store the result
+        Date today = Date.today();
+
+        //check if date is in the future
+        Boolean isDateInFuture = dt >= today;
+        return isDateInFuture; // Replace null with the variable you used to store the result
     }
 
     /**
@@ -260,7 +263,7 @@ public with sharing class VariablesDataTypesOperators {
         // formula: celsius = (fahrenheit - 32) * 5/9
         // 
         
-        Double convertFahrenheitToCelsius(fahrenheit) =(fahrenheit - SUBTRACT_FACTOR) * (MULTIPLY_FACTOR/DIVIDE_FACTOR); // Replace null with the variable you used to store the result
+        fahrenheit =(fahrenheit - SUBTRACT_FACTOR) * (MULTIPLY_FACTOR/DIVIDE_FACTOR); // Replace null with the variable you used to store the result
         return convertFahrenheitToCelsius;
     }
 
